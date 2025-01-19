@@ -11,6 +11,7 @@ const Navbar = () => {
                 <div className="flex ml-8 gap-4">
                     <Link href={`/`} className="text-white hover:text-gray-300">Home</Link>
                     <Link href={`/about`} className="text-white hover:text-gray-300">About</Link>
+                    <a href={`/resort/files/test.pdf`} download className="text-white hover:text-gray-300">Download Test</a>
                 </div>
             </div>
         </nav>
